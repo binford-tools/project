@@ -1,0 +1,44 @@
+{
+    "name":        "binford-tools/project",
+    "description": "A template for custom Magento 2 projects.",
+    "type":        "project",
+    "license":     "MIT",
+    "repositories":
+    {
+        "repo.magento.com":
+        {
+            "type": "composer",
+            "url":  "https://repo.magento.com/"
+        }
+    },
+    "require":
+    {
+        "php":                               "^7.3",
+        "magento/product-community-edition": "^2.3"
+    },
+    "autoload":
+    {
+        "files":
+        [
+            "app/etc/NonComposerComponentRegistration.php"
+        ],
+        "psr-4":
+        {
+            "Magento\\Setup\\":        "setup/src/Magento/Setup",
+            "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller"
+        },
+        "psr-0":
+        {
+            "":
+            [
+                "generated/code"
+            ]
+        },
+        "exclude-from-classmap":
+        [
+            "**/dev/**",
+            "**/update/**",
+            "**/Test/**"
+        ]
+    }
+}
