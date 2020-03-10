@@ -5,6 +5,7 @@
     <module name="Binford_Config" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Store"/>
+            <module name="Magento_Theme"/>
         </sequence>
     </module>
 

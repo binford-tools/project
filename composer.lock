@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7345dd07fc0d0403460cdc78644f43de",
+    "content-hash": "dbe79e8dd95405bb59722b009c3a9c2f",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -329,6 +329,42 @@
                 "validation"
             ],
             "time": "2019-05-28T15:27:37+00:00"
+        },
+        {
+            "name": "binford-tools/theme",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/binford-tools/theme.git",
+                "reference": "3845c7d692730f25038e935fa9b0fc0833e86698"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/binford-tools/theme/zipball/3845c7d692730f25038e935fa9b0fc0833e86698",
+                "reference": "3845c7d692730f25038e935fa9b0fc0833e86698",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "^102.0",
+                "magento/module-theme": "^101.0",
+                "magento/theme-frontend-luma": "^100.3",
+                "php": "^7.3"
+            },
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Provides common frontend customizations for Binford® Tools.",
+            "support": {
+                "source": "https://github.com/binford-tools/theme/tree/v1.0.0",
+                "issues": "https://github.com/binford-tools/theme/issues"
+            },
+            "time": "2020-03-10T17:30:35+00:00"
         },
         {
             "name": "braintree/braintree_php",
