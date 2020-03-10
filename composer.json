@@ -31,6 +31,7 @@
         {
             "":
             [
+                "app/code",
                 "generated/code"
             ]
         },

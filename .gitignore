@@ -3,6 +3,8 @@
 !.github/workflows
 !.github/workflows/php.yml
 !app
+!app/code
+!app/code/**
 !app/etc
 !app/etc/config.php
 !.gitignore
